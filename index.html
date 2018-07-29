@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="icon" href="favicon.ico" >
+<title>Info. Security Quiz</title>   
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src = "main.js"></script>
+
+</head>
+
+<body>
+         
+    
+<h1 class="heading">INFORMATION SECURITY QUIZ</h1>
+
+
+<div class="container-fluid">
+    <div class="rows">
+    
+   <div class="col-sm-8 col-md-8 col-lg-8">       
+<form id = "quiz" name = "quiz">
+
+<p class = "questions">1) An unauthorized user is a network ______ issue</p>
+<input id = "textbox" type = "text" name = "question1">
+<br>    
+   <p class = "questions">2) What is SSL also referred to as in web browsers?</p>
+
+<input type = "radio" id = "mc" name = "question2" value = "a"> A. SecureNow<br>
+<input type = "radio" id = "mc" name = "question2" value = "b"> B. SMTP<br>
+    <input type = "radio" id = "mc" name = "question2" value = "c"> C. FTP<br>
+    <input type = "radio" id = "mc" name = "question2" value = "d"> D. HTTPS<br>
+    <br>
+    
+    <p class = "questions">3) Anti virus software is the most effective product/service/practice against malicious code.</p>
+
+<input type = "radio" id = "mc" name = "question3" value = "a"> A. True<br>
+<input type = "radio" id = "mc" name = "question3" value = "b"> B. False<br>
+    <br>
+    
+    <p class = "questions">4) Music and picture files (jpg, bmp, avi, mp3, mp4, etc.) that do NOT contain a hidden extension can still execute malicious code on the computer?</p>
+
+<input type = "radio" id = "mc" name = "question4" value = "a"> A. True <br>
+<input type = "radio" id = "mc" name = "question4" value = "b"> B. False<br>
+    
+    <br>
+    
+    <p class = "questions">5) Which factors are important in Information Security?</p>
+
+<input type = "radio" id = "mc" name = "question5" value = "a"> A. Confidentiality<br>
+<input type = "radio" id = "mc" name = "question5" value = "b"> B. Integrity<br>
+    <input type = "radio" id = "mc" name = "question5" value = "c"> C. Availability<br>
+    <input type = "radio" id = "mc" name = "question5" value = "d"> D. All of above<br>
+    
+    <br>
+    
+    <p class = "questions">6) What is Trojan?</p>
+
+<input type = "radio" id = "mc" name = "question6" value = "a"> A. They are used to create a backdoor on your computer that gives malicious users access to your system. <br>
+<input type = "radio" id = "mc" name = "question6" value = "b"> B. It is a standalone malware computer program that replicates itself in order to spread to other computers. <br>
+    <input type = "radio" id = "mc" name = "question6" value = "c"> C.  It almost always corrupt or modify files on a targeted computer.<br>
+    
+     <br>
+    
+     <p class = "questions">7) What is worm?</p>
+
+<input type = "radio" id = "mc" name = "question7" value = "a"> A. They are used to create a backdoor on your computer that gives malicious users access to your system. <br>
+<input type = "radio" id = "mc" name = "question7" value = "b"> B. It is a standalone malware computer program that replicates itself in order to spread to other computers. <br>
+    <input type = "radio" id = "mc" name = "question7" value = "c"> C.  It almost always corrupt or modify files on a targeted computer.<br>
+    
+     <br>
+    
+     <p class = "questions">8) What is virus?</p>
+
+<input type = "radio" id = "mc" name = "question8" value = "a"> A. They are used to create a backdoor on your computer that gives malicious users access to your system. <br>
+<input type = "radio" id = "mc" name = "question8" value = "b"> B. It is a standalone malware computer program that replicates itself in order to spread to other computers. <br>
+    <input type = "radio" id = "mc" name = "question8" value = "c"> C.  It almost always corrupt or modify files on a targeted computer.<br>
+    
+     <br>
+    
+     <p class = "questions">9) __________ is a software that is intended to damage or disable computers and computer systems.</p>
+
+<input id = "textbox" type = "text" name = "question9">
+    
+     <br>
+    
+     <p class = "questions">10) A computer program that records every keystroke made by a computer user, especially in order to gain fraudulent access to passwords and other confidential information is called as ___________</p>
+
+<input id = "textbox" type = "text" name = "question10">
+<br>
+        
+<input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+       
+       </form>
+ </div>   
+     
+    
+    <div class="col-sm-4 col-md-4 col-lg-4">
+<div id = "after_submit">
+<p id = "number_correct"></p>     
+<p id = "message"></p>
+<p>
+    <br>ANSWERS<br><br>
+    1) Security<br><br>
+    2) D. HTTPS<br><br>
+    3) B. False<br>
+    Knowledge and making good decisions is the most effective defense<br><br>
+    4) B. False<br>
+    In Windows when "hide known file extensions" is turned on you can see the full extension of the file. A true music/picture file cannot execute malicious code.<br><br>
+    5) D. All<br>
+    Confidentiality, Integrity and Availability are all important in Information Security.<br><br>
+    6) A. They are used to create a backdoor on your computer that gives malicious users access to your system.<br><br>
+    7) B. It is a standalone malware computer program that replicates itself in order to spread to other computers.<br><br>
+    8) C.  It almost always corrupt or modify files on a targeted computer.<br><br>
+    9) Malware<br><br>
+    10) Keylogger
+
+  
+
+    </p>    
+</div>
+        </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
+
